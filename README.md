@@ -1,4 +1,4 @@
-
+<a href="https://doi.org/10.5281/zenodo.18851858"><img src="https://zenodo.org/badge/1171801551.svg" alt="DOI"></a>
 ---
 
 # README: Machine-Learning Accelerated Direct Air Capture (DAC) Optimization
