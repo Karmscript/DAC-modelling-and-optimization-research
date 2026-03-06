@@ -5,7 +5,7 @@
 
 ### Mechanistic Modelling, Surrogate Modeling & Multi-Objective Optimization of DAC using Eggshell-Derived Calcium Hydroxide
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains a computational framework designed to optimize $CO_2$ capture using waste-derived eggshell ($Ca(OH)_2$) sorbent. The project integrates first-principles chemical engineering models with gradient-boosted machine learning and evolutionary algorithms to find the optimal trade-offs between capture efficiency and energy consumption.
 
@@ -19,7 +19,7 @@ This repository contains a computational framework designed to optimize $CO_2$ c
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```bash
 .
@@ -93,7 +93,7 @@ pip install xgboost scikit-learn pandas matplotlib scipy pymoo
 
 ---
 
-## 🚀 Execution Guide
+##  Execution Guide
 
 ### Step 1: Data Generation 
 Run the co-simulation to generate the training data. This script opens Aspen Plus in the background and iterates through the LHS design space.
@@ -116,14 +116,14 @@ Run the **DAC_optimization_workflow.ipynb** script to find the non-dominated sor
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 
 * **Optimization:** Identified a "Knee Point" capable of at least 65% $CO_2$ capture effficiency an energy penalty cost lower than $10dollars/kg-captured CO_2$.
 * **Verification:** Optimal points were rerun through the Aspen "Oracle" to filter out non-physical points
 ---
 
-## 📝 Citation & Contact
+## Citation & Contact
 
 If you use this framework for DAC research or any codes contained, please cite:
 
